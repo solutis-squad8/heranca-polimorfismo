@@ -16,6 +16,6 @@ public class Gerente extends Graduado {
 
     @Override
     public String toString() {
-        return "Nome: " + getNome() + "\nRenda Total: R$" + calcularRendaTotal() + "\nComissão: " + getComissao();
+        return "Nome: " + getNome() + "\nRenda Total: R$" + calcularRendaTotal() + "\nComissão: R$" + getComissao();
     }
 }
